@@ -24,16 +24,17 @@ To provide its features, ClearQR stores a small amount of data directly and only
 
 ### Permissions Requested
 
-ClearQR requests the following permissions only to enable its core features:
+ClearQR requests the following permissions only to enable its core features. We do not use these permissions to collect any personal data.
 
 *   **Camera:** Required to scan QR codes using your device's camera.
 *   **Photo Library / Storage:** Required to save QR codes you generate to your device's gallery.
-*   **Wi-Fi State:** Required to help you connect to a Wi-Fi network when you scan a Wi-Fi QR code.
-*   **Contacts:** Required to save contact information to your device's address book when you scan a vCard QR code.
+*   **Contacts (Read & Write):** Required to save contact information to your device's address book when you scan a vCard QR code.
+*   **Wi-Fi State & Location:** Modern Android versions require both Wi-Fi and Location permissions to scan for and connect to Wi-Fi networks from a QR code. Your location data is used only for this purpose and is never stored or transmitted.
+*   **Biometrics:** Required to enable the optional "Lock app" feature using your device's fingerprint or face sensor.
 
 ### In-App Purchases
 
-ClearQR uses Google Play's billing service to handle premium subscriptions. All payment information is securely managed by Google. We do not receive or store any of your payment details, such as credit card numbers. We only receive a confirmation from Google when a purchase is successful. For more information, please refer to Google's Privacy Policy.
+ClearQR is a free download and offers premium features via a **one-time purchase**. We use Google Play's billing service to handle this transaction. All payment information is securely managed by Google. We do not receive or store any of your payment details, such as credit card numbers. We only receive a confirmation from Google when a purchase is successful. This purchase is non-consumable and can be restored on any device using the same Google account. For more information, please refer to Google's Privacy Policy.
 
 ### Changes to This Privacy Policy
 
